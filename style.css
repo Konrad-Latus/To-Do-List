@@ -1,0 +1,24 @@
+html {
+    background-color: rgb(55, 55, 83);
+}
+.div-style{
+    width:5em;
+    height:2em;
+    margin: 0 1em 1em 0;
+}
+
+.div-style:nth-child(odd){
+    background-color: rgb(209, 197, 149);
+}
+
+.div-style:nth-child(even){
+    background-color: rgb(249, 234, 174);
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.crossed {
+    text-decoration: line-through;
+}
