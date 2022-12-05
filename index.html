@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <link href="style.css" rel="stylesheet">
+
+    <meta charset="utf-8">
+
+    <title> To-Do-List </title>
+
+</head>
+
+
+<body>
+
+    <div class="container" id="todoDIV">
+            <input type="text" id="textInput" placeholder="New Task...">
+            <button id="push"> Add </button>
+            <button onclick="filterAll()" id="All">All</button> 
+            <button onclick="filterActive()" id="Active">Active</button>
+            <button onclick="filterCompleted()" id="Completed">Completed</button>
+    </div>
+
+    <div id="tasks"></div>
+    
+
+
+    <script src="script.js"> </script>
+
+</body>
+
+</html>
